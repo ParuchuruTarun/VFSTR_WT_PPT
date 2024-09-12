@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+
+#home {
+    padding: 50px;
+    text-align: center;
+}
+
+#albums, #movies, #contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.album-container, .movie-container, .contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.album, .movie, .person {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+.album img, .movie img, .person img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+}
+
+.about-left {
+    width: 60%;
+    margin-right: 200px;
+    align-content: center;
+}
+
+.about-right {
+    width: 39%;
+}
+
+#player {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rebeccapurple;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.player-controls {
+    margin: 20px 0;
+}
+
+.task-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.vedio-butten {
+    background-color: rebeccapurple;
+    color: #f4f4f4;
+    border-radius: 20%;
+}
