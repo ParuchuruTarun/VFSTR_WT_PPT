@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignan Regristration frames</title>
+</head>
+<style>
+    body {
+        background-color: rgb(187, 144, 230);
+    }
+    h2 {
+        text-align: center;
+        color: #fff;
+    }
+    label {
+        font-weight: bold;
+    }
+    .button {
+        color: antiquewhite;
+        background-color: brown;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <h2>Student Regrestration Form</h2><hr>
+    <form>
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname"><br><br>
+        <label for="lname">Last Name : </label>
+        <input type="text" id="lname"><br><br>
+        <label>Gender</label>
+        <input type="radio" id="male" name="gen">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gen">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gen">
+        <label for="others">Others</label><br><br>
+        <label>Your Bio : </label><br>
+        <textarea rows="5" cols="33">About Yourself</textarea><br><br>
+        <label for="dob">Date of Berth</label>
+        <input type="date" id="dob"><br><br>
+        <label>Address : </label><br>
+        <textarea rows="5" cols="33">address!!</textarea><br>
+        <hr>
+        <label for="hide">University</label>
+        <input type="hidden" id="hide" value="Vignan"><br><br> 
+        <label>Programming Languages Known</label><br>
+        <input type="checkbox" id="C">
+        <label for="C">C language</label><br>
+        <input type="checkbox" id="python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="C++">
+        <label for="C++">C++ language</label><br>
+        <input type="checkbox" id="java">
+        <label for="java">Java</label><br>
+        <hr>
+        <label for="mail">Enter the Mail ID</label>
+        <input type="email" id="mail"><br><br>
+        <label for="password">Choose a Password</label>
+        <input type="password" id="password"><br><br>
+        <label for="password">Conform Password</label>
+        <input type="password" id="password"><br><br>
+        <label for="file">Uplode your Adhar</label>
+        <input type="file" id="file"><br><br>
+        <input type="submit" value="Submit" class="button">
+        <input type="reset" value="reset" class="button">
+    </form>
+</body>
+</html>
