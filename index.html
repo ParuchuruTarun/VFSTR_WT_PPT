@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming Website</title>
+    <link rel="stylesheet" href="Music_Stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Music Streamer</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#albums">Albums</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="about">
+            <div class="about-left">
+                <h1>Hello👋, we welcome you all to our Music Streamer</h1>
+                <pre>
+                    A <b>Music Streamer</b> is an online service or device that allows users to listen to music directly
+                    from the internet without needing to download the files. By leveraging streaming technology, 
+                    it provides instant access to a vast library of songs, albums, and playlists across various 
+                    genres and artists. Popular music streaming platforms like Spotify, Apple Music, and Amazon 
+                    Music offer personalized recommendations, curated playlists, and social sharing features, 
+                    enhancing the listening experience. Music streamers have revolutionized how people access 
+                    and enjoy music, making it more accessible and convenient than ever before.
+                </pre>
+            </div>
+            <div class="about-Right">
+                <img src="Images\Music_Images\Music_About.jpg" height="300px" width="300px">
+            </div>
+        </div>
+        <h3>Enjoy Some Free, Unlimited and mindbloing Music 🎶</h3>
+    </section>
+
+    <section id="albums">
+        <h2>Choose Your Album </h2>
+        <div class="album-container">
+            <div class="album">
+                <img src="Images\Music_Images\Music_Taylor.jpg" alt="Album 1" height="194" width="259">
+                <p>Taylor Swift</p>
+                <button onclick="createTaskButtons('Taylor_Swift_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_EDSheeran.jpg" alt="Album 2" height="194" width="259">
+                <p>ED Sheeran</p>
+                <button onclick="createTaskButtons('ED_Sheeran_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_SPB.jpg" alt="Album 3" height="194" width="259">
+                <p>SP Balasubrahmanayam</p>
+                <button onclick="createTaskButtons('SP_Balasubrahmanyam_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_Anirudh.jpg" alt="Album 4" height="194" width="259">
+                <p>Anirudh</p>
+                <button onclick="createTaskButtons('Anirudh_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_Chitra.jpg" alt="Album 5" height="194" width="259">
+                <p>Chitra</p>
+                <button onclick="createTaskButtons('Chitra_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_ShreyaGhoshal.jpg" alt="Album 6" height="194" width="259">
+                <p>Shreya Ghoshal</p>
+                <button onclick="createTaskButtons('Shreya_Ghoshal_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_ARRahman.jpg" alt="Album 7" height="194" width="259">
+                <p>AR. Rahman</p>
+                <button onclick="createTaskButtons('AR_Rahman_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_Adele.jpg" alt="Album 8" height="194" width="259">
+                <p>Adele</p>
+                <button onclick="createTaskButtons('Adele_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_DuaLipa.jpg" alt="Album 9" height="194" width="259">
+                <p>Dua Lipa</p>
+                <button onclick="createTaskButtons('Dua_Lipa_Album')">Select</button>
+            </div>
+            <div class="album">
+                <img src="Images\Music_Images\Music_BillieEilish.jpg" alt="Album 10" height="194" width="259">
+                <p>Billie Eilish</p>
+                <button onclick="createTaskButtons('Billie_Eilish_Album')">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="movies">
+        <h2>Choose Your Movie</h2>
+        <div class="movie-container">
+            <div class="movie">
+                <img src="Images\Misic_Movies\Music_Devara.jpg" alt="Movie 1" height="300" width="220">
+                <p>Devara Movie</p>
+                <button onclick="createTaskButtons('Devara__movie_Songs')">Select</button>
+            </div>
+            <div class="movie">
+                <img src="Images\Misic_Movies\Music_SitaRamam.jpg" alt="Album 2" height="300" width="220">
+                <p>Sita Ramam</p>
+                <button onclick="createTaskButtons('SitaRamam_movie_songs')">Select</button>
+            </div>
+            <div class="movie">
+                <img src="Images\Misic_Movies\MUsic_AlaVaikuntapuramLo.jpg" alt="Album 3" height="300" width="220">
+                <p>Ala Vaikuntapuram Lo</p>
+                <button onclick="createTaskButtons('AlaVaikuntapuramLo_movie_songs')">Select</button>
+            </div>
+            <div class="movie">
+                <img src="Images\Misic_Movies\Music_RRR.jpg" alt="Album 4" height="300" width="220">
+                <p>RRR</p>
+                <button onclick="createTaskButtons('RRR_movie_songs')">Select</button>
+            </div>
+            <div class="movie">
+                <img src="Images\Misic_Movies\Music_English.jpg" alt="Album 5" height="300" width="220">
+                <p>The Gratest Showman</p>
+                <button onclick="createTaskButtons('English_movie_songs')">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="player">
+        <div id="Taylor_Swift_Album" data-tasks='["Lover", "Cruel Summer", "August", "Blank Space"]'></div>
+        <div id="ED_Sheeran_Album" data-tasks='["Perfect", "Shape Of You", "Photograph"]'></div>
+        <dic id="SP_Balasubrahmanyam_Album" data-tasks='["Prema Prema", "Chuttu Chutti", "Chinuku Chinuku", "Andamaina Premarani"]'></dic>
+        <div id="Anirudh_Album" data-tasks='["Fear(Devara)", "Andamaina Premarani"]'></div>
+        <div id="Chitra_Album" data-tasks='["Chuttu Chutti", "Chinuku Chinuku"]'></div>
+        <div id="Shreya_Ghoshal_Album" data-tasks='["Oh Sita Hey Rama", "Janani"]'></div>
+        <div id="AR_Rahman_Album" data-tasks='["Nattu Nattu", "Andamaina Premarani"]'></div>
+        <div id="Adele_Album" data-tasks='["Lover", "Cruel Summer"]'></div>
+        <div id="Dua_Lipa_Album" data-tasks='["August"]'></div>
+        <div id="Billie_Eilish_Album" data-tasks='["Blank Space"]'></div>
+
+        <div id="Devara__movie_Songs" data-tasks='["Fear", "Chuttamalle", "All Hail The Tiger"]'></div>
+        <div id="SitaRamam_movie_songs" data-tasks='["Oh Sita Hey Rama", "Inthandham", "Kaanunna Kalyanam"]'></div>
+        <div id="AlaVaikuntapuramLo_movie_songs" data-tasks='["Samajavaragamana", "Ramuloo Ramulaa", "Butta Bomma", "Sittharala Sirapadu"]'></div>
+        <div id="RRR_movie_songs" data-tasks='["Nattu Nattu", "Janani", "Komuram Bheemudo", "Ettara Jenda", "Komma Uyyala"]'></div>
+        <div id="English_movie_songs" data-tasks='["The Greatest Showman", "Never Enough", "This is Me"]'></div>
+
+        <div id="buttonArea" style="margin-top: 20px;"></div>
+
+        <h2>Now Playing</h2>
+        <div class="player-controls">
+            <audio id="audio-player" controls></audio>
+        </div>
+
+        <div id="visualizer">
+            <!-- Add visualizer or animations here -->
+        </div>
+
+        <div class="vedio-player-controls">
+            <a href="WT_emp3.html" target="_blank">
+                <video src="Music_Vedio_Vignan.mp4" autoplay muted></video>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>This is the people that designe of this Music Streamer</h2>
+        <div class="contact-container">
+            <div class="person">
+                <img src="Images\Person.jpg" alt="Person 1" height="225" width="225">
+                <h4>Guntur Kavya</h4>
+                <p>221FA18015</p>
+                <a href="https://github.com/ParuchuruTarun" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="person">
+                <img src="Images\Person.jpg" alt="Person 2" height="225" width="225">
+                <h4>D. Vijaya Sathvika</h4>
+                <p>221FA18024</p>
+                <a href="https://github.com/ParuchuruTarun" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="person">
+                <img src="Images\Person.jpg" alt="Person 3" height="225" width="225">
+                <h4>Paruchuru Tarun</h4>
+                <p>221FA18048</p>
+                <a href="https://github.com/ParuchuruTarun" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <div class="person">
+                <img src="Images\Person.jpg" alt="Person 4" height="225" width="225">
+                <h4>P. Lakshma Reddy</h4>
+                <p>221FA18161</p>
+                <a href="https://github.com/ParuchuruTarun" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Music Streamer. Thankyou for Using</p>
+    </footer>
+
+    <script src="Music_JavaScript.js"></script>
+</body>
+</html>
